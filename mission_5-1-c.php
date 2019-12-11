@@ -1,6 +1,3 @@
-
-
- 
 <?php	 //テキストに記述
 	
 	//データベースに接続
@@ -118,11 +115,7 @@ if(!empty($_POST['commentNumber']) and !empty($_POST['name']) and !empty($_POST[
 	    $name = $_POST['name']; 
 	    $comment = $_POST['comment'];
 	    $password = $_POST['password'];
-	       /* $rey_array = file($filename);
-	        $keys_comment=end($rey_array);
-	        $keys_comment_ele=explode("<>", $keys_comment);
-		$text_name = ($number."<>".$name."<>".$comment."<>".$date."<>".$_POST['password']);
-		*/
+	       
 //データを入力すること
 //===================================================================================================
 	$sql = $pdo -> prepare("INSERT INTO mission5table (name, comment, date, password) VALUES (:name, :comment, :date, :password)");
