@@ -178,16 +178,7 @@ echo $edit_comment;
 	echo "<hr>";
 	}
 
-/*
-    $filename='mission_3-5.txt';
-    $texts_export=file($filename);
-         foreach($texts_export as $value){ // 取得したファイルデータ(配列)を全て表示する 
-         
-  	                                  $exploded = explode ("<>", $value);//ファイルの行を<で分割し、配列に格納
-  	                                
-                                      echo $exploded[0]." ".$exploded[1]." ".$exploded[2]." ".$exploded[3]."<br>";
-  }
-*/
+
 ?>
             
 
